@@ -1,5 +1,5 @@
 # SQL Python Excel Prototype
 
-This Dockerized python prototype can be simply run via `./run.sh`.
+Prototype demonstrating how a Dockerized Python process can query a sql database and export results to an excel spreadsheet.
 
-Only installation of Docker should be required.
+Only installation of Docker should be required.  Simply run via `./run.sh`.

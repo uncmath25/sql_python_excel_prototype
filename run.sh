@@ -27,7 +27,7 @@ docker run --rm \
     --env-file .env \
     --name $PYTHON_CONTAINER_NAME \
     --network host \
-    -v $(pwd)/$PYTHON_EXPORT_DIR:/$PYTHON_EXPORT_DIR \
+    -v $(pwd)/$PYTHON_EXPORT_DIR:/$OUTPUT_DIR \
     $PYTHON_IMAGE_NAME
 
 docker stop $DB_CONTAINER_NAME
